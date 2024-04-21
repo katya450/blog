@@ -1,0 +1,76 @@
+.global-header {
+	background-size: cover;
+	background-position-x: center;
+    background-position-y: center;
+	min-height: 350px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 13px;
+	border: 1px solid #bab6b6;
+	padding: 6px 12px;
+	white-space: nowrap;
+}
+
+.btn-default {
+	color: #bab6b6;
+	background-color: transparent;
+	border-color: #bab6b6;
+    border-radius: 10px;
+}
+
+.btn-primary.disabled,
+.btn-primary.disabled:focus,
+a.btn-primary.disabled,
+a.btn-primary.disabled:focus {
+	color: #757575;
+	background-color: #bab6b6;
+	border-color: #bdbdbd;
+}
+
+/* Default buttons are the ones in the header */
+.btn-default {
+	color: #bab6b6;
+	background-color: transparent;
+	border-color: #bab6b6;
+}
+
+.btn-default:focus,
+.btn-default:hover {
+	color: #bab6b6;
+	background-color: #bdbdbd4d;
+	border-color: #bab6b6;
+}
+
+body {
+	color: #333333;
+    background-color: #181918;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 13px;
+    color: #c2bdbd;
+}
+
+h1 {
+	font-size: 36px;
+	color: #a6783a
+}
+
+.header-text {
+	background-color: #0000004d;
+	color: #bab6b6;
+}
+
+.header-text .tag-line {
+	color: #bab6b6;
+}
+
+.header-text h1 a {
+	color: #bab6b6;
+}
+
+
+/* color: #bab6b6 */
