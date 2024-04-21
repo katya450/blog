@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'fi'
+title = 'Keksi joku hyvä nimi.'
+theme = 'ananke'
