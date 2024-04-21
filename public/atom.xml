@@ -1,0 +1,120 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Working with code with feelings</title>
+    <description>so what the hell again ja eikö tällainen sekoilu ole jo lopetettu</description>
+    <link>http://localhost:1313/</link>
+    
+    <language>en</language>
+    <copyright>Copyright 2025, Calvin Tran</copyright>
+    <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo - gohugo.io</generator>
+    <docs>http://cyber.harvard.edu/rss/rss.html</docs>
+    <atom:link href="http://localhost:1313//atom.xml" rel="self" type="application/atom+xml"/>
+    
+    
+    <item>
+      <title>Happiness = trees &#43; birbs</title>
+      <link>http://localhost:1313/posts/birbs/</link>
+      <description>&lt;p&gt;write about happiness, stabily, birds. Mostly birds.&lt;/p&gt;
+&lt;p&gt;Onnellisuuden aihe: se, kun työhuoneen ikkunasta näkee kun talitintit roikkuu ja riekkuu männyn oksissa.&lt;/p&gt;
+</description>
+      <author>Katja Lusma</author>
+      <guid>http://localhost:1313/posts/birbs/</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Lesson learned with Elasticsearch</title>
+      <link>http://localhost:1313/posts/es/</link>
+      <description>&lt;p&gt;I made a bang, and completely crashed one of our test environments.&lt;/p&gt;
+&lt;p&gt;It was surprisingly easy!&lt;/p&gt;
+&lt;p&gt;I made a database migration which touched 900+ Datomic entities, which each could have have 0-n entities under them, and those could also
+have so many too many entities under them.&lt;br&gt;
+Migration and Datomic transactor, no problem, everything went well and got updated as planned.&lt;br&gt;
+After that, ES started to work and index all of these new changes. Runs out of heap memory, big time.
+&lt;br&gt;Server crashes and restarts as it&amp;rsquo;s told to do, but what does it do when it restarts? It wants to index the ES stuff&amp;hellip;
+&lt;br&gt;What happens when it wants to index all the stuff it run OOM last time it tried to do that? &lt;br&gt;
+It crashes. And restarts. And crashes XD&lt;/p&gt;
+&lt;p&gt;Lesson learned:&lt;br&gt;
+Whenever making a migration that feels slightly bigger that just touching one or two rows: consider whether it really needs to be indexed in ES right away or maybe not?&lt;/p&gt;
+</description>
+      <author>Katja Lusma</author>
+      <guid>http://localhost:1313/posts/es/</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Hukkaan mennyt pessimismi</title>
+      <link>http://localhost:1313/posts/pessimismi/</link>
+      <description>&lt;p&gt;Meneekö pessimismi hukkaan jos murehtii turhaan? &amp;amp; do you ever feel like you’re just drowning&lt;/p&gt;
+&lt;p&gt;Kaikkiin duunipaikkoihin, mihin oon hakenut, oon päässyt. Aina on tuntunut siltä, että on ollu vitun kuumottavaa ja viimestään tekkihaastattelussa tuntuu että oon ollu pääasiassa surkea koska olen unohtanut noin kolmasosan siitä mitä osaan, koska jännitys ja paniq. Naamakerroinhaastiksissa oon ollu huomattavasti parempi, koska osaan olla ihmisten kanssa suht luontevasti, vaikka toki aina jännitän niitäkin ihan sikana.
+Tai siis näin oon kuvitellut että osaan olla ja pärjään.&lt;/p&gt;
+&lt;p&gt;Mutta kuinka paska pitää olla, että feilaa asennehaastattelun olemalla oma rehellinen ja mukava itsensä?
+Jos sillä samalla rehellisellä mukavalla itsellä on päässyt kaikkiin aiempiin paikkoihin? Tarkoittaako se, että tuo paikka ei vaan ollut mulle sopiva? Vai että oon vaan paska? No tietysti, että olen paska, ja motivaatio mihinkään on hetken aikaan aika pyöreä nolla.&lt;/p&gt;
+&lt;p&gt;Mikä on mun seuraavaks paras unelmaduuni? Vai oisko se toinen paras joskus mahdollinen? Mikä on mun jatkosuunnitelma? Luovutanko koko alan suhteen ja heitän kirveeni kaivoon?&lt;/p&gt;
+&lt;p&gt;Otsikkoon liittyen: ei tartte pohtia tätä koska ei mennyt hukkaan.&lt;/p&gt;
+</description>
+      <author>Katja Lusma</author>
+      <guid>http://localhost:1313/posts/pessimismi/</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Tiny notes about PRs</title>
+      <link>http://localhost:1313/posts/prs/</link>
+      <description>&lt;h3 id=&#34;but-mainly-the-love-for-the-diamond&#34;&gt;But mainly the love for the diamond&lt;/h3&gt;
+&lt;p&gt;First of all, and this should be brainless and self-evident, but gonna mention this anyway. Pull requests are vital part of keeping the codebase working and sane when working with a team of developers. Not the only way, but often a very good way.&lt;/p&gt;
+&lt;p&gt;What got me to think about this very basic thing this morning was to notice how happy this sight made me:&lt;/p&gt;
+&lt;img src=&#34;gem.png&#34; width=&#34;100&#34; alt=&#34;diamond-of-acceptance&#34;/&gt;
+&lt;p&gt;It makes me happy to see it on my PR, but it makes me happy to see it on someone else&amp;rsquo;s PR too!&lt;/p&gt;
+&lt;p&gt;Instead of just putting a label &amp;ldquo;approved&amp;rdquo; or &amp;ldquo;LGTM&amp;rdquo;, this gives the feeling of respect, the idea that &amp;ldquo;this code is diamond&amp;rdquo;. I don&amp;rsquo;t care how stupid this might sound, but I love it! ;D&lt;/p&gt;
+&lt;p&gt;However, this was not the only thing I wanted to write about.
+I&amp;rsquo;ve seen a lot of different ways of working with PR:s, and imo some are terrible and some are good.&lt;/p&gt;
+&lt;p&gt;In one project we had a mandatory two people review, and a PR could not be merged without two people accepting it. For tiny changes like translations or one-liner bug fixes that was insane and made things stupid slow. With having admin rights one could, and did, just pass the requirement, but that even underlined the stupidity of the process.
+This usually lead into one person to go thru the code, and then just someone to rubberstamp it.&lt;/p&gt;
+&lt;p&gt;The pull request process I like the most, is responsibility and freedom.
+Kinda like in life in general!&lt;/p&gt;
+&lt;p&gt;What I mean with that, is that I am allowed to just merge my PRs without any acceptance from anyone.
+I&amp;rsquo;m also trusted in &lt;em&gt;not doing that&lt;/em&gt;, unless it&amp;rsquo;s needed and I know what I&amp;rsquo;m doing.
+I love it when people take time to read thru other&amp;rsquo;s code, and find ways to make it better, readable, and usable. It takes time. But it makes the codebase so much better, and it also increases knowledge of the code, both for the reviewer(s) and the coder.&lt;/p&gt;
+</description>
+      <author>Katja Lusma</author>
+      <guid>http://localhost:1313/posts/prs/</guid>
+      <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Vuodenvaihde</title>
+      <link>http://localhost:1313/posts/joulua/</link>
+      <description>&lt;h3 id=&#34;ja-mitäs-sitten&#34;&gt;Ja mitäs sitten?&lt;/h3&gt;
+&lt;p&gt;Aloitin joululomani täynnä vihaa. Vihaa itseä kohtaan, vihaa koodiani kohtaan, vihaa vähän muuallekin sopivasti ripoteltuna. Oman pääni sisällä tietenkin, kuten aina kaikki. Eihän sitä nyt ulospäin voi purkaa - tosin meikäläisen olemattomalla pokerinaamalla se väkisinkin näkyy.&lt;/p&gt;
+&lt;p&gt;Tämä sama saatanan asia tulee koko ajan itsellä vastaan. Oisko vuosi 2025 se vuosi, kun sille oppisi tekemään jotain?&lt;/p&gt;
+&lt;p&gt;Ratkaisu? Rauhoitu, saatana!
+Minun ei tarvitse kantaa itse yksin vastuuta siitä, että kaikki on koko softassa virheetöntä.
+Minun ei tarvitse olla aina se, joka yrittää napata kaikki putoilevat pallot. Joskus voi olla ihan ok antaa niiden pallojen pudota ja katsoa, mitä käy.
+Minun on pakko oppia rauhottumaan, ihan jo fyysisen ja henkisen terveyden takia.&lt;/p&gt;
+&lt;p&gt;Keinot siihen näin aluksi? Illan ruutuaika vaihtuu kirjaan.
+Töiden jälkeen jooga tai kävely, jotta pääsee irti töistä kunnolla.
+Töissä anna niiden pallojen pudota, et ole niin tärkeä että sinun pitäisi luulla olevasi kaikesta vastuussa.
+Lopeta lupailu siitä että teet kaiken - et kuitenkaan jaksa tai ehdi.
+Keskity, saatana, ja lopeta sekoilu.&lt;/p&gt;
+&lt;p&gt;Suunnitelmat on selkeet, enää toteutus puuttuu ;D&lt;/p&gt;
+</description>
+      <author>Katja Lusma</author>
+      <guid>http://localhost:1313/posts/joulua/</guid>
+      <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    
+    <item>
+      <title>Ajattelin aloittaa blogin</title>
+      <link>http://localhost:1313/posts/josko-blogi/</link>
+      <description>&lt;p&gt;Tuntuu, että mielessä on toistuvasti kaikenlaista, mistä haluaisin kirjoittaa lauseen tai pari, kappaleen tai pari, mutta ei jaksa sitä showta ja kommentointia ja vastauksia ja ketjuja ja ohi ymmärrystä, mikä niin usein somessa tapahtuu. Josko tämä ois sellainen päiväkirjamainen paikka tarinoida fiiliksiä duunin tiimoilta?&lt;/p&gt;
+</description>
+      <author>Katja Lusma</author>
+      <guid>http://localhost:1313/posts/josko-blogi/</guid>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+    </item>
+    
+  </channel>
+</rss>

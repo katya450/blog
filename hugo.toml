@@ -1,0 +1,65 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-gb'
+title = 'Working with code with feelings'
+theme = 'maverick'
+
+[params]
+  description = "so what the hell again ja eikö tällainen sekoilu ole jo lopetettu"
+  author = 'Katja Lusma'
+  items = 10
+  logo = '/assets/favicon.ico'
+
+  [params.comments]
+    enabled = false
+    githubRepo = 'canhtran/maverick'
+    theme = 'github-light'
+
+[menu]
+  [[menu.main]]
+    identifier = "who"
+    name = "Who?"
+    url = "/who/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = -200
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokailight'
+    tabWidth = 4
+
+[taxonomies]
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss"
+  baseName = "atom"
+
+[outputFormats.JSON]
+  mediatype = "application/json"
+  baseName = "feed"
+
+ignoreErrors = ["error-remote-getjson"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

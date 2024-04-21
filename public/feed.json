@@ -1,0 +1,109 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Working with code with feelings",
+  "home_page_url": "http://localhost:1313/",
+  "feed_url": "http://localhost:1313/feed.json",
+  "description": "so what the hell again ja eikö tällainen sekoilu ole jo lopetettu",
+  "favicon": "http://localhost:1313//assets/favicon.ico",
+  "expired": false,
+  "author": {
+    "name": "Katja Lusma",
+    "url": "http://localhost:1313/"
+  },
+  "items": [
+    
+    
+
+    
+    {
+      "id": "1880f91267dc66bd28b41c0b8e688b8d52fe860e",
+      "title": "Happiness = trees + birbs",
+      "summary": "",
+      "content_text": "write about happiness, stabily, birds. Mostly birds.\nOnnellisuuden aihe: se, kun työhuoneen ikkunasta näkee kun talitintit roikkuu ja riekkuu männyn oksissa.\n",
+      "content_html": "\u003cp\u003ewrite about happiness, stabily, birds. Mostly birds.\u003c/p\u003e\n\u003cp\u003eOnnellisuuden aihe: se, kun työhuoneen ikkunasta näkee kun talitintit roikkuu ja riekkuu männyn oksissa.\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/birbs/",
+      "date_published": "20106-20-09T100:2020:00+00:00",
+      "date_modified": "20106-20-09T100:2020:00+00:00",
+      "author": {
+        "name": "Katja Lusma",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "32e4b0b682341adb951d455b9f5bfc4ce50001fa",
+      "title": "Lesson learned with Elasticsearch",
+      "summary": "",
+      "content_text": "I made a bang, and completely crashed one of our test environments.\nIt was surprisingly easy!\nI made a database migration which touched 900+ Datomic entities, which each could have have 0-n entities under them, and those could also have so many too many entities under them.\nMigration and Datomic transactor, no problem, everything went well and got updated as planned.\nAfter that, ES started to work and index all of these new changes. Runs out of heap memory, big time. Server crashes and restarts as it\u0026rsquo;s told to do, but what does it do when it restarts? It wants to index the ES stuff\u0026hellip; What happens when it wants to index all the stuff it run OOM last time it tried to do that? It crashes. And restarts. And crashes XD\nLesson learned:\nWhenever making a migration that feels slightly bigger that just touching one or two rows: consider whether it really needs to be indexed in ES right away or maybe not?\n",
+      "content_html": "\u003cp\u003eI made a bang, and completely crashed one of our test environments.\u003c/p\u003e\n\u003cp\u003eIt was surprisingly easy!\u003c/p\u003e\n\u003cp\u003eI made a database migration which touched 900+ Datomic entities, which each could have have 0-n entities under them, and those could also\nhave so many too many entities under them.\u003cbr\u003e\nMigration and Datomic transactor, no problem, everything went well and got updated as planned.\u003cbr\u003e\nAfter that, ES started to work and index all of these new changes. Runs out of heap memory, big time.\n\u003cbr\u003eServer crashes and restarts as it\u0026rsquo;s told to do, but what does it do when it restarts? It wants to index the ES stuff\u0026hellip;\n\u003cbr\u003eWhat happens when it wants to index all the stuff it run OOM last time it tried to do that? \u003cbr\u003e\nIt crashes. And restarts. And crashes XD\u003c/p\u003e\n\u003cp\u003eLesson learned:\u003cbr\u003e\nWhenever making a migration that feels slightly bigger that just touching one or two rows: consider whether it really needs to be indexed in ES right away or maybe not?\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/es/",
+      "date_published": "3106-03-09T100:33:00+00:00",
+      "date_modified": "3106-03-09T100:33:00+00:00",
+      "author": {
+        "name": "Katja Lusma",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "6fc1222801a3bc1f1f19b5fa4e727cb31b24dfb4",
+      "title": "Hukkaan mennyt pessimismi",
+      "summary": "",
+      "content_text": "Meneekö pessimismi hukkaan jos murehtii turhaan? \u0026amp; do you ever feel like you’re just drowning\nKaikkiin duunipaikkoihin, mihin oon hakenut, oon päässyt. Aina on tuntunut siltä, että on ollu vitun kuumottavaa ja viimestään tekkihaastattelussa tuntuu että oon ollu pääasiassa surkea koska olen unohtanut noin kolmasosan siitä mitä osaan, koska jännitys ja paniq. Naamakerroinhaastiksissa oon ollu huomattavasti parempi, koska osaan olla ihmisten kanssa suht luontevasti, vaikka toki aina jännitän niitäkin ihan sikana. Tai siis näin oon kuvitellut että osaan olla ja pärjään.\nMutta kuinka paska pitää olla, että feilaa asennehaastattelun olemalla oma rehellinen ja mukava itsensä? Jos sillä samalla rehellisellä mukavalla itsellä on päässyt kaikkiin aiempiin paikkoihin? Tarkoittaako se, että tuo paikka ei vaan ollut mulle sopiva? Vai että oon vaan paska? No tietysti, että olen paska, ja motivaatio mihinkään on hetken aikaan aika pyöreä nolla.\nMikä on mun seuraavaks paras unelmaduuni? Vai oisko se toinen paras joskus mahdollinen? Mikä on mun jatkosuunnitelma? Luovutanko koko alan suhteen ja heitän kirveeni kaivoon?\nOtsikkoon liittyen: ei tartte pohtia tätä koska ei mennyt hukkaan.\n",
+      "content_html": "\u003cp\u003eMeneekö pessimismi hukkaan jos murehtii turhaan? \u0026amp; do you ever feel like you’re just drowning\u003c/p\u003e\n\u003cp\u003eKaikkiin duunipaikkoihin, mihin oon hakenut, oon päässyt. Aina on tuntunut siltä, että on ollu vitun kuumottavaa ja viimestään tekkihaastattelussa tuntuu että oon ollu pääasiassa surkea koska olen unohtanut noin kolmasosan siitä mitä osaan, koska jännitys ja paniq. Naamakerroinhaastiksissa oon ollu huomattavasti parempi, koska osaan olla ihmisten kanssa suht luontevasti, vaikka toki aina jännitän niitäkin ihan sikana.\nTai siis näin oon kuvitellut että osaan olla ja pärjään.\u003c/p\u003e\n\u003cp\u003eMutta kuinka paska pitää olla, että feilaa asennehaastattelun olemalla oma rehellinen ja mukava itsensä?\nJos sillä samalla rehellisellä mukavalla itsellä on päässyt kaikkiin aiempiin paikkoihin? Tarkoittaako se, että tuo paikka ei vaan ollut mulle sopiva? Vai että oon vaan paska? No tietysti, että olen paska, ja motivaatio mihinkään on hetken aikaan aika pyöreä nolla.\u003c/p\u003e\n\u003cp\u003eMikä on mun seuraavaks paras unelmaduuni? Vai oisko se toinen paras joskus mahdollinen? Mikä on mun jatkosuunnitelma? Luovutanko koko alan suhteen ja heitän kirveeni kaivoon?\u003c/p\u003e\n\u003cp\u003eOtsikkoon liittyen: ei tartte pohtia tätä koska ei mennyt hukkaan.\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/pessimismi/",
+      "date_published": "26096-26-09T90:2626:00+00:00",
+      "date_modified": "26096-26-09T90:2626:00+00:00",
+      "author": {
+        "name": "Katja Lusma",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "e0579aa82ac596014fff2720938706ae3c8cbc1d",
+      "title": "Tiny notes about PRs",
+      "summary": "",
+      "content_text": "But mainly the love for the diamond First of all, and this should be brainless and self-evident, but gonna mention this anyway. Pull requests are vital part of keeping the codebase working and sane when working with a team of developers. Not the only way, but often a very good way.\nWhat got me to think about this very basic thing this morning was to notice how happy this sight made me:\nIt makes me happy to see it on my PR, but it makes me happy to see it on someone else\u0026rsquo;s PR too!\nInstead of just putting a label \u0026ldquo;approved\u0026rdquo; or \u0026ldquo;LGTM\u0026rdquo;, this gives the feeling of respect, the idea that \u0026ldquo;this code is diamond\u0026rdquo;. I don\u0026rsquo;t care how stupid this might sound, but I love it! ;D\nHowever, this was not the only thing I wanted to write about. I\u0026rsquo;ve seen a lot of different ways of working with PR:s, and imo some are terrible and some are good.\nIn one project we had a mandatory two people review, and a PR could not be merged without two people accepting it. For tiny changes like translations or one-liner bug fixes that was insane and made things stupid slow. With having admin rights one could, and did, just pass the requirement, but that even underlined the stupidity of the process. This usually lead into one person to go thru the code, and then just someone to rubberstamp it.\nThe pull request process I like the most, is responsibility and freedom. Kinda like in life in general!\nWhat I mean with that, is that I am allowed to just merge my PRs without any acceptance from anyone. I\u0026rsquo;m also trusted in not doing that, unless it\u0026rsquo;s needed and I know what I\u0026rsquo;m doing. I love it when people take time to read thru other\u0026rsquo;s code, and find ways to make it better, readable, and usable. It takes time. But it makes the codebase so much better, and it also increases knowledge of the code, both for the reviewer(s) and the coder.\n",
+      "content_html": "\u003ch3 id=\"but-mainly-the-love-for-the-diamond\"\u003eBut mainly the love for the diamond\u003c/h3\u003e\n\u003cp\u003eFirst of all, and this should be brainless and self-evident, but gonna mention this anyway. Pull requests are vital part of keeping the codebase working and sane when working with a team of developers. Not the only way, but often a very good way.\u003c/p\u003e\n\u003cp\u003eWhat got me to think about this very basic thing this morning was to notice how happy this sight made me:\u003c/p\u003e\n\u003cimg src=\"gem.png\" width=\"100\" alt=\"diamond-of-acceptance\"/\u003e\n\u003cp\u003eIt makes me happy to see it on my PR, but it makes me happy to see it on someone else\u0026rsquo;s PR too!\u003c/p\u003e\n\u003cp\u003eInstead of just putting a label \u0026ldquo;approved\u0026rdquo; or \u0026ldquo;LGTM\u0026rdquo;, this gives the feeling of respect, the idea that \u0026ldquo;this code is diamond\u0026rdquo;. I don\u0026rsquo;t care how stupid this might sound, but I love it! ;D\u003c/p\u003e\n\u003cp\u003eHowever, this was not the only thing I wanted to write about.\nI\u0026rsquo;ve seen a lot of different ways of working with PR:s, and imo some are terrible and some are good.\u003c/p\u003e\n\u003cp\u003eIn one project we had a mandatory two people review, and a PR could not be merged without two people accepting it. For tiny changes like translations or one-liner bug fixes that was insane and made things stupid slow. With having admin rights one could, and did, just pass the requirement, but that even underlined the stupidity of the process.\nThis usually lead into one person to go thru the code, and then just someone to rubberstamp it.\u003c/p\u003e\n\u003cp\u003eThe pull request process I like the most, is responsibility and freedom.\nKinda like in life in general!\u003c/p\u003e\n\u003cp\u003eWhat I mean with that, is that I am allowed to just merge my PRs without any acceptance from anyone.\nI\u0026rsquo;m also trusted in \u003cem\u003enot doing that\u003c/em\u003e, unless it\u0026rsquo;s needed and I know what I\u0026rsquo;m doing.\nI love it when people take time to read thru other\u0026rsquo;s code, and find ways to make it better, readable, and usable. It takes time. But it makes the codebase so much better, and it also increases knowledge of the code, both for the reviewer(s) and the coder.\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/prs/",
+      "date_published": "4046-04-09T40:44:00+00:00",
+      "date_modified": "4046-04-09T40:44:00+00:00",
+      "author": {
+        "name": "Katja Lusma",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "8fee2d30c14c0251ad0ce1e1ac9641db1c94f0ec",
+      "title": "Vuodenvaihde",
+      "summary": "",
+      "content_text": "Ja mitäs sitten? Aloitin joululomani täynnä vihaa. Vihaa itseä kohtaan, vihaa koodiani kohtaan, vihaa vähän muuallekin sopivasti ripoteltuna. Oman pääni sisällä tietenkin, kuten aina kaikki. Eihän sitä nyt ulospäin voi purkaa - tosin meikäläisen olemattomalla pokerinaamalla se väkisinkin näkyy.\nTämä sama saatanan asia tulee koko ajan itsellä vastaan. Oisko vuosi 2025 se vuosi, kun sille oppisi tekemään jotain?\nRatkaisu? Rauhoitu, saatana! Minun ei tarvitse kantaa itse yksin vastuuta siitä, että kaikki on koko softassa virheetöntä. Minun ei tarvitse olla aina se, joka yrittää napata kaikki putoilevat pallot. Joskus voi olla ihan ok antaa niiden pallojen pudota ja katsoa, mitä käy. Minun on pakko oppia rauhottumaan, ihan jo fyysisen ja henkisen terveyden takia.\nKeinot siihen näin aluksi? Illan ruutuaika vaihtuu kirjaan. Töiden jälkeen jooga tai kävely, jotta pääsee irti töistä kunnolla. Töissä anna niiden pallojen pudota, et ole niin tärkeä että sinun pitäisi luulla olevasi kaikesta vastuussa. Lopeta lupailu siitä että teet kaiken - et kuitenkaan jaksa tai ehdi. Keskity, saatana, ja lopeta sekoilu.\nSuunnitelmat on selkeet, enää toteutus puuttuu ;D\n",
+      "content_html": "\u003ch3 id=\"ja-mitäs-sitten\"\u003eJa mitäs sitten?\u003c/h3\u003e\n\u003cp\u003eAloitin joululomani täynnä vihaa. Vihaa itseä kohtaan, vihaa koodiani kohtaan, vihaa vähän muuallekin sopivasti ripoteltuna. Oman pääni sisällä tietenkin, kuten aina kaikki. Eihän sitä nyt ulospäin voi purkaa - tosin meikäläisen olemattomalla pokerinaamalla se väkisinkin näkyy.\u003c/p\u003e\n\u003cp\u003eTämä sama saatanan asia tulee koko ajan itsellä vastaan. Oisko vuosi 2025 se vuosi, kun sille oppisi tekemään jotain?\u003c/p\u003e\n\u003cp\u003eRatkaisu? Rauhoitu, saatana!\nMinun ei tarvitse kantaa itse yksin vastuuta siitä, että kaikki on koko softassa virheetöntä.\nMinun ei tarvitse olla aina se, joka yrittää napata kaikki putoilevat pallot. Joskus voi olla ihan ok antaa niiden pallojen pudota ja katsoa, mitä käy.\nMinun on pakko oppia rauhottumaan, ihan jo fyysisen ja henkisen terveyden takia.\u003c/p\u003e\n\u003cp\u003eKeinot siihen näin aluksi? Illan ruutuaika vaihtuu kirjaan.\nTöiden jälkeen jooga tai kävely, jotta pääsee irti töistä kunnolla.\nTöissä anna niiden pallojen pudota, et ole niin tärkeä että sinun pitäisi luulla olevasi kaikesta vastuussa.\nLopeta lupailu siitä että teet kaiken - et kuitenkaan jaksa tai ehdi.\nKeskity, saatana, ja lopeta sekoilu.\u003c/p\u003e\n\u003cp\u003eSuunnitelmat on selkeet, enää toteutus puuttuu ;D\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/joulua/",
+      "date_published": "2016-02-09T10:22:00+00:00",
+      "date_modified": "2016-02-09T10:22:00+00:00",
+      "author": {
+        "name": "Katja Lusma",
+        "url": "http://localhost:1313/"
+      }
+    },
+    
+    {
+      "id": "89f23facf48f0abc5371a7bc8b9e5879fbc59db2",
+      "title": "Ajattelin aloittaa blogin",
+      "summary": "",
+      "content_text": "Tuntuu, että mielessä on toistuvasti kaikenlaista, mistä haluaisin kirjoittaa lauseen tai pari, kappaleen tai pari, mutta ei jaksa sitä showta ja kommentointia ja vastauksia ja ketjuja ja ohi ymmärrystä, mikä niin usein somessa tapahtuu. Josko tämä ois sellainen päiväkirjamainen paikka tarinoida fiiliksiä duunin tiimoilta?\n",
+      "content_html": "\u003cp\u003eTuntuu, että mielessä on toistuvasti kaikenlaista, mistä haluaisin kirjoittaa lauseen tai pari, kappaleen tai pari, mutta ei jaksa sitä showta ja kommentointia ja vastauksia ja ketjuja ja ohi ymmärrystä, mikä niin usein somessa tapahtuu. Josko tämä ois sellainen päiväkirjamainen paikka tarinoida fiiliksiä duunin tiimoilta?\u003c/p\u003e\n",
+      "url": "http://localhost:1313/posts/josko-blogi/",
+      "date_published": "21046-21-09T40:2121:00+00:00",
+      "date_modified": "21046-21-09T40:2121:00+00:00",
+      "author": {
+        "name": "Katja Lusma",
+        "url": "http://localhost:1313/"
+      }
+    }
+    
+  ]
+}
