@@ -2,35 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/fuck-the-productivity-boost/</loc>
+    <loc>http://localhost:1313/blog/posts/fuck-the-productivity-boost/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/birbs/</loc>
+    <loc>http://localhost:1313/blog/posts/birbs/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/es/</loc>
+    <loc>http://localhost:1313/blog/posts/es/</loc>
     <lastmod>2025-10-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/pessimismi/</loc>
+    <loc>http://localhost:1313/blog/posts/pessimismi/</loc>
     <lastmod>2025-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/prs/</loc>
+    <loc>http://localhost:1313/blog/posts/prs/</loc>
     <lastmod>2025-04-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/joulua/</loc>
+    <loc>http://localhost:1313/blog/posts/joulua/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/josko-blogi/</loc>
-    <lastmod>2024-04-21T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/blog/tags/</loc>
   </url><url>
-    <loc>http://localhost:1313/who/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/blog/who/</loc>
   </url>
 </urlset>

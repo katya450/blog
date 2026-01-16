@@ -72,5 +72,44 @@ h1 {
 	color: #bab6b6;
 }
 
+/* Who page styles */
+.who-page {
+	overflow: hidden; /* Contains the floated image */
+}
 
-/* color: #bab6b6 */
+.who-page .profile-pic {
+	float: right;
+	max-width: 150px;
+	margin: 0 0 1em 1.5em;
+	border-radius: 8px;
+}
+
+/* Contact buttons */
+.contact-buttons {
+	display: flex;
+	gap: 1em;
+	margin-top: 1.5em;
+    align-items: center;
+	border-top: 1px solid #558b2f;
+    padding-top: 30px;
+}
+
+.contact-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	transition: opacity 0.2s;
+    width: 40px;
+	height: 40px;
+}
+
+.contact-btn:hover {
+	opacity: 0.7;
+}
+
+.contact-btn.email-btn {
+	background-color: white;
+	height: 30px;
+
+}

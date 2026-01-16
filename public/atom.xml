@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Working with code with feelings</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content on Working with code with feelings</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/atom.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/atom.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fuck the productivity boost</title>
-      <link>http://localhost:1313/posts/fuck-the-productivity-boost/</link>
+      <link>http://localhost:1313/blog/posts/fuck-the-productivity-boost/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/fuck-the-productivity-boost/</guid>
+      <guid>http://localhost:1313/blog/posts/fuck-the-productivity-boost/</guid>
       <description>&lt;p&gt;Did you know that using AI increases your productivity? The more you use AI the more productive you are! And everything is about productivity, isn&amp;rsquo;t it?! The more code you push out the more producive you are and the more value to the stakeholders! Yei!&lt;/p&gt;&#xA;&lt;p&gt;Fuck that.&#xA;The more I see AI generated code, the more I see bugs. Bugs that are already on a PR, meaning it might look good in the code, but it breaks something else in the system. Features that work but are not even close to what the designer drew it. Features that are ugly. Features with bad translations. Features that feel like no one bothered to look befofe they were in the production.&#xA;It&amp;rsquo;s like productivity is more important than quality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Happiness = trees &#43; birbs</title>
-      <link>http://localhost:1313/posts/birbs/</link>
+      <link>http://localhost:1313/blog/posts/birbs/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/birbs/</guid>
+      <guid>http://localhost:1313/blog/posts/birbs/</guid>
       <description>&lt;p&gt;write about happiness, stabily, birds. Mostly birds.&lt;/p&gt;&#xA;&lt;p&gt;Onnellisuuden aihe: se, kun työhuoneen ikkunasta näkee kun talitintit roikkuu ja riekkuu männyn oksissa.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lesson learned with Elasticsearch</title>
-      <link>http://localhost:1313/posts/es/</link>
+      <link>http://localhost:1313/blog/posts/es/</link>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/es/</guid>
+      <guid>http://localhost:1313/blog/posts/es/</guid>
       <description>&lt;p&gt;I made a bang, and completely crashed one of our test environments.&lt;/p&gt;&#xA;&lt;p&gt;It was surprisingly easy!&lt;/p&gt;&#xA;&lt;p&gt;I made a database migration which touched 900+ Datomic entities, which each could have have 0-n entities under them, and those could also&#xA;have so many too many entities under them.&lt;br&gt;&#xA;Migration and Datomic transactor, no problem, everything went well and got updated as planned.&lt;br&gt;&#xA;After that, ES started to work and index all of these new changes. Runs out of heap memory, big time.&#xA;&lt;br&gt;Server crashes and restarts as it&amp;rsquo;s told to do, but what does it do when it restarts? It wants to index the ES stuff&amp;hellip;&#xA;&lt;br&gt;What happens when it wants to index all the stuff it run OOM last time it tried to do that? &lt;br&gt;&#xA;It crashes. And restarts. And crashes XD&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hukkaan mennyt pessimismi</title>
-      <link>http://localhost:1313/posts/pessimismi/</link>
+      <link>http://localhost:1313/blog/posts/pessimismi/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/pessimismi/</guid>
+      <guid>http://localhost:1313/blog/posts/pessimismi/</guid>
       <description>&lt;p&gt;Meneekö pessimismi hukkaan jos murehtii turhaan? &amp;amp; do you ever feel like you’re just drowning&lt;/p&gt;&#xA;&lt;p&gt;Kaikkiin duunipaikkoihin, mihin oon hakenut, oon päässyt. Aina on tuntunut siltä, että on ollu vitun kuumottavaa ja viimestään tekkihaastattelussa tuntuu että oon ollu pääasiassa surkea koska olen unohtanut noin kolmasosan siitä mitä osaan, koska jännitys ja paniq. Naamakerroinhaastiksissa oon ollu huomattavasti parempi, koska osaan olla ihmisten kanssa suht luontevasti, vaikka toki aina jännitän niitäkin ihan sikana.&#xA;Tai siis näin oon kuvitellut että osaan olla ja pärjään.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tiny notes about PRs</title>
-      <link>http://localhost:1313/posts/prs/</link>
+      <link>http://localhost:1313/blog/posts/prs/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/prs/</guid>
+      <guid>http://localhost:1313/blog/posts/prs/</guid>
       <description>&lt;h3 id=&#34;but-mainly-the-love-for-the-diamond&#34; class=&#34;anchored-heading&#34;&gt;&lt;a href=&#34;#but-mainly-the-love-for-the-diamond&#34;&gt;But mainly the love for the diamond&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;First of all, and this should be brainless and self-evident, but gonna mention this anyway. Pull requests are vital part of keeping the codebase working and sane when working with a team of developers. Not the only way, but often a very good way.&lt;/p&gt;&#xA;&lt;p&gt;What got me to think about this very basic thing this morning was to notice how happy this sight made me:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vuodenvaihde</title>
-      <link>http://localhost:1313/posts/joulua/</link>
+      <link>http://localhost:1313/blog/posts/joulua/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/joulua/</guid>
+      <guid>http://localhost:1313/blog/posts/joulua/</guid>
       <description>&lt;h3 id=&#34;ja-mitäs-sitten&#34; class=&#34;anchored-heading&#34;&gt;&lt;a href=&#34;#ja-mit%c3%a4s-sitten&#34;&gt;Ja mitäs sitten?&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Aloitin joululomani täynnä vihaa. Vihaa itseä kohtaan, vihaa koodiani kohtaan, vihaa vähän muuallekin sopivasti ripoteltuna. Oman pääni sisällä tietenkin, kuten aina kaikki. Eihän sitä nyt ulospäin voi purkaa - tosin meikäläisen olemattomalla pokerinaamalla se väkisinkin näkyy.&lt;/p&gt;&#xA;&lt;p&gt;Tämä sama saatanan asia tulee koko ajan itsellä vastaan. Oisko vuosi 2025 se vuosi, kun sille oppisi tekemään jotain?&lt;/p&gt;&#xA;&lt;p&gt;Ratkaisu? Rauhoitu, saatana!&#xA;Minun ei tarvitse kantaa itse yksin vastuuta siitä, että kaikki on koko softassa virheetöntä.&#xA;Minun ei tarvitse olla aina se, joka yrittää napata kaikki putoilevat pallot. Joskus voi olla ihan ok antaa niiden pallojen pudota ja katsoa, mitä käy.&#xA;Minun on pakko oppia rauhottumaan, ihan jo fyysisen ja henkisen terveyden takia.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ajattelin aloittaa blogin</title>
-      <link>http://localhost:1313/posts/josko-blogi/</link>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/josko-blogi/</guid>
-      <description>&lt;p&gt;Tuntuu, että mielessä on toistuvasti kaikenlaista, mistä haluaisin kirjoittaa lauseen tai pari, kappaleen tai pari, mutta ei jaksa sitä showta ja kommentointia ja vastauksia ja ketjuja ja ohi ymmärrystä, mikä niin usein somessa tapahtuu. Josko tämä ois sellainen päiväkirjamainen paikka tarinoida fiiliksiä duunin tiimoilta?&lt;/p&gt;</description>
+      <title>Who?</title>
+      <link>http://localhost:1313/blog/who/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/who/</guid>
+      <description>&lt;div class=&#34;who-page&#34;&gt;&#xA;&lt;img class=&#34;profile-pic&#34; src=&#34;http://localhost:1313/blog/images/tommyknocker.jpeg&#34; alt=&#34;a black &amp; white photo of the blogger, grinning and holding a glass of cider&#34;&gt;&#xA;&lt;p&gt;I&amp;rsquo;m Katja from Finland and I am somewhat tired of social media.&lt;/p&gt;&#xA;&lt;p&gt;This blog is a social media free (hence no commenting either, send me an email or ping me on LinkedIn if you so wish) place for me to write down things that I learn, find interesting, find irritating, or just want to write about for some other reason :shrug:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
