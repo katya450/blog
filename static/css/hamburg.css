@@ -54,8 +54,16 @@ p {
     color: #c2bdbd;
 }
 
+ul {
+	color: #c2bdbd;
+}
+
 h1 {
 	font-size: 36px;
+	color: #a6783a
+}
+
+h3 {
 	color: #a6783a
 }
 

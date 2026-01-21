@@ -1,9 +1,9 @@
 +++
 title = 'Fuck the productivity boost'
-date = 2026-01-14
 draft = true
 +++
 
+date = 2026-01-14
 Did you know that using AI increases your productivity? The more you use AI the more productive you are! And everything is about productivity, isn't it?! The more code you push out the more producive you are and the more value to the stakeholders! Yei!
 
 Fuck that.

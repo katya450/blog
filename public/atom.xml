@@ -6,8 +6,15 @@
     <description>Recent content on Working with code with feelings</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
-    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vuodenvaihde osa 2 eli &#34;lol&#34;</title>
+      <link>http://localhost:1313/blog/posts/vuodenvaihde-osa-2/</link>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/vuodenvaihde-osa-2/</guid>
+      <description>&lt;p&gt;Ihan vaan palatakseni tähän edellisvuoden rageen, josta tämä blogikin sai alkunsa: &amp;ldquo;lol&amp;rdquo;.&#xA;Se on aivan turha meikäläisen tehdä mitään uudenvuodenlupauksia, johan se on nähty jo niin monena vuotena aiemmin. Kauanko tuotakin kesti? Kaksi päivää? Viikko? Ei varmasti ainakaan yhtään pidempään.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fuck the productivity boost</title>
       <link>http://localhost:1313/blog/posts/fuck-the-productivity-boost/</link>
@@ -27,7 +34,7 @@
       <link>http://localhost:1313/blog/posts/es/</link>
       <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/es/</guid>
-      <description>&lt;p&gt;I made a bang, and completely crashed one of our test environments.&lt;/p&gt;&#xA;&lt;p&gt;It was surprisingly easy!&lt;/p&gt;&#xA;&lt;p&gt;I made a database migration which touched 900+ Datomic entities, which each could have have 0-n entities under them, and those could also&#xA;have so many too many entities under them.&lt;br&gt;&#xA;Migration and Datomic transactor, no problem, everything went well and got updated as planned.&lt;br&gt;&#xA;After that, ES started to work and index all of these new changes. Runs out of heap memory, big time.&#xA;&lt;br&gt;Server crashes and restarts as it&amp;rsquo;s told to do, but what does it do when it restarts? It wants to index the ES stuff&amp;hellip;&#xA;&lt;br&gt;What happens when it wants to index all the stuff it run OOM last time it tried to do that? &lt;br&gt;&#xA;It crashes. And restarts. And crashes XD&lt;/p&gt;</description>
+      <description>&lt;p&gt;I made a bang, and completely crashed one of our test environments. It was surprisingly easy!&lt;/p&gt;&#xA;&lt;p&gt;What I did, was make a rather simple database migration which touched 900+ Datomic entities, which each could have have 0-n entities under them, and those could also&#xA;have so many too many entities under them.&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Migration itself and the Datomic transactor: no problem, everything went well and got updated as planned.&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;After that, ES started its work and began indexing all of these new changes. And then runs out of heap memory, big time.&lt;br&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hukkaan mennyt pessimismi</title>
@@ -41,14 +48,14 @@
       <link>http://localhost:1313/blog/posts/prs/</link>
       <pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/prs/</guid>
-      <description>&lt;h3 id=&#34;but-mainly-the-love-for-the-diamond&#34; class=&#34;anchored-heading&#34;&gt;&lt;a href=&#34;#but-mainly-the-love-for-the-diamond&#34;&gt;But mainly the love for the diamond&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;First of all, and this should be brainless and self-evident, but gonna mention this anyway. Pull requests are vital part of keeping the codebase working and sane when working with a team of developers. Not the only way, but often a very good way.&lt;/p&gt;&#xA;&lt;p&gt;What got me to think about this very basic thing this morning was to notice how happy this sight made me:&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;but-mainly-the-love-for-the-gem&#34;&gt;But mainly the love for the gem&lt;/h3&gt;&#xA;&lt;p&gt;First of all, and this should be brainless and self-evident, but gonna mention this anyway. Pull requests are vital part of keeping the codebase working and sane when working with a team of developers. Not the only way, but often a very good way.&lt;/p&gt;&#xA;&lt;p&gt;What got me to think about this very basic thing this morning was to notice how happy this sight made me:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Vuodenvaihde</title>
       <link>http://localhost:1313/blog/posts/joulua/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/joulua/</guid>
-      <description>&lt;h3 id=&#34;ja-mitäs-sitten&#34; class=&#34;anchored-heading&#34;&gt;&lt;a href=&#34;#ja-mit%c3%a4s-sitten&#34;&gt;Ja mitäs sitten?&lt;/a&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Aloitin joululomani täynnä vihaa. Vihaa itseä kohtaan, vihaa koodiani kohtaan, vihaa vähän muuallekin sopivasti ripoteltuna. Oman pääni sisällä tietenkin, kuten aina kaikki. Eihän sitä nyt ulospäin voi purkaa - tosin meikäläisen olemattomalla pokerinaamalla se väkisinkin näkyy.&lt;/p&gt;&#xA;&lt;p&gt;Tämä sama saatanan asia tulee koko ajan itsellä vastaan. Oisko vuosi 2025 se vuosi, kun sille oppisi tekemään jotain?&lt;/p&gt;&#xA;&lt;p&gt;Ratkaisu? Rauhoitu, saatana!&#xA;Minun ei tarvitse kantaa itse yksin vastuuta siitä, että kaikki on koko softassa virheetöntä.&#xA;Minun ei tarvitse olla aina se, joka yrittää napata kaikki putoilevat pallot. Joskus voi olla ihan ok antaa niiden pallojen pudota ja katsoa, mitä käy.&#xA;Minun on pakko oppia rauhottumaan, ihan jo fyysisen ja henkisen terveyden takia.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Aloitin joululomani täynnä vihaa. Vihaa itseä kohtaan, vihaa koodiani kohtaan, vihaa vähän muuallekin sopivasti ripoteltuna. Oman pääni sisällä tietenkin, kuten aina kaikki. Eihän sitä nyt ulospäin voi purkaa - tosin meikäläisen olemattomalla pokerinaamalla se väkisinkin näkyy.&lt;/p&gt;&#xA;&lt;p&gt;Tämä sama saatanan asia tulee koko ajan itsellä vastaan. Oisko vuosi 2025 se vuosi, kun sille oppisi tekemään jotain?&lt;/p&gt;&#xA;&lt;p&gt;Ratkaisu? Rauhoitu, saatana!&#xA;Minun ei tarvitse kantaa itse yksin vastuuta siitä, että kaikki on koko softassa virheetöntä.&#xA;Minun ei tarvitse olla aina se, joka yrittää napata kaikki putoilevat pallot. Joskus voi olla ihan ok antaa niiden pallojen pudota ja katsoa, mitä käy.&#xA;Minun on pakko oppia rauhottumaan, ihan jo fyysisen ja henkisen terveyden takia.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Who?</title>
