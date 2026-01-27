@@ -25,9 +25,16 @@
     <item>
       <title>Happiness = trees &#43; birbs</title>
       <link>http://localhost:1313/blog/posts/birbs/</link>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 07 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/birbs/</guid>
-      <description>&lt;p&gt;write about happiness, stabily, birds. Mostly birds.&lt;/p&gt;&#xA;&lt;p&gt;Onnellisuuden aihe: se, kun työhuoneen ikkunasta näkee kun talitintit roikkuu ja riekkuu männyn oksissa.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;what-happened-in-my-brain-when-the-goal-failed&#34;&gt;What happened in my brain when the goal failed?&lt;/h3&gt;&#xA;&lt;p&gt;After my totally catastrophic failure in the tech interview for my &amp;ldquo;dream job&amp;rdquo;, it forced me to think whether I was unprepared for it somehow on purpose?&#xA;Well not knowingly, it was a failure from my there&amp;rsquo;s no arguing that, but there was someone knocking on the back of my head that this is not the thing anymore.&#xA;It was The Thing when I used to live a walking distance from the job and I had less things to worry about in my everyday life.&#xA;But nowadays, it would have required me to use public transportation for almost two hours every day. I hate using public transportation when it&amp;rsquo;s the only option.&#xA;It would&amp;rsquo;ve made my working days 10 hours or more, instead of current 8ish. Sure the salary would&amp;rsquo;ve been slightly better. The domain would&amp;rsquo;ve been super interesting.&#xA;But it would have taken me hours from the things that now bring me great, great joy: birds in my yard.&#xA;Was my dream job just some noise from the years back?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hukkaan mennyt pessimismi, II</title>
+      <link>http://localhost:1313/blog/posts/pessimismi2/</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/pessimismi2/</guid>
+      <description>&lt;h3 id=&#34;osa-2-kuinka-pilata-asiat-ylettömällä-optimismilla&#34;&gt;Osa 2: Kuinka pilata asiat ylettömällä optimismilla&lt;/h3&gt;&#xA;&lt;p&gt;Se, että on lyönyt itselleen lukkoon kaksi kriteeriä, jotka vaaditaan siihen että on unelmaduunissaan, on tyhmää.&#xA;Se on tyhmää ensinnäkin siksi että ihminen muuttuu ja toisekseen siksi että tilanteet muuttuu.&lt;/p&gt;&#xA;&lt;p&gt;Pessimismi ensimmäisestä osasta oli turhaa ja murehtiminen meni hukkaan.&#xA;Toiseen osaan lähdin vähän soitellen sotaan, liiallisella optimismilla ja tyhjällä päällä.&#xA;Se, että neppailee asioita työkseen ja on siinä oikeasti (kysy vaikka joltain) ihan hyvä, ei ole tae sille että osaa selittää niitä asioita uskottavasti superpäteville defsec-koodareille videopuhelussa englanniksi, etenkin siinä vaiheessa kun on niin paniikissa että (en edes liioittele) leuka tärisee ja oksettaa koska jännittää niin paljon ja ei varmasti muistaisi edes omaa henkilöturvatunnustaan jos sitä kysyttäisi.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lesson learned with Elasticsearch</title>
@@ -37,11 +44,11 @@
       <description>&lt;p&gt;I made a bang, and completely crashed one of our test environments. It was surprisingly easy!&lt;/p&gt;&#xA;&lt;p&gt;What I did, was make a rather simple database migration which touched 900+ Datomic entities, which each could have have 0-n entities under them, and those could also&#xA;have so many too many entities under them.&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Migration itself and the Datomic transactor: no problem, everything went well and got updated as planned.&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;After that, ES started its work and began indexing all of these new changes. And then runs out of heap memory, big time.&lt;br&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Hukkaan mennyt pessimismi</title>
+      <title>Hukkaan mennyt pessimismi, I</title>
       <link>http://localhost:1313/blog/posts/pessimismi/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/pessimismi/</guid>
-      <description>&lt;p&gt;Meneekö pessimismi hukkaan jos murehtii turhaan? &amp;amp; do you ever feel like you’re just drowning&lt;/p&gt;&#xA;&lt;p&gt;Kaikkiin duunipaikkoihin, mihin oon hakenut, oon päässyt. Aina on tuntunut siltä, että on ollu vitun kuumottavaa ja viimestään tekkihaastattelussa tuntuu että oon ollu pääasiassa surkea koska olen unohtanut noin kolmasosan siitä mitä osaan, koska jännitys ja paniq. Naamakerroinhaastiksissa oon ollu huomattavasti parempi, koska osaan olla ihmisten kanssa suht luontevasti, vaikka toki aina jännitän niitäkin ihan sikana.&#xA;Tai siis näin oon kuvitellut että osaan olla ja pärjään.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;osa-1-meneekö-pessimismi-hukkaan-jos-murehtii-turhaan&#34;&gt;Osa 1: Meneekö pessimismi hukkaan jos murehtii turhaan?&lt;/h3&gt;&#xA;&lt;p&gt;Kaikkiin duunipaikkoihin, mihin oon hakenut, oon päässyt. Aina on tuntunut siltä, että on ollu vitun kuumottavaa ja viimestään tekkihaastattelussa tuntuu että oon ollu pääasiassa surkea koska olen unohtanut noin kolmasosan siitä mitä osaan, koska jännitys ja paniq. Naamakerroinhaastiksissa oon ollu huomattavasti parempi, koska osaan olla ihmisten kanssa suht luontevasti, vaikka toki aina jännitän niitäkin ihan sikana.&#xA;Tai siis näin oon kuvitellut että osaan olla ja pärjään.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tiny notes about PRs</title>
